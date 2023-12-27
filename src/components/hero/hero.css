@@ -1,0 +1,35 @@
+#home {
+  /* background: rgb(255, 0, 0); */
+  background: linear-gradient(
+      100deg,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    url(../../assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: -300px 0; */
+  min-height: min(97vh, 1080px);
+  color: var(--clr-neutral-100);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: hidden;
+}
+.hero_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.hero_container p {
+  letter-spacing: 5px;
+}
+.hero_container h1,
+.hero_container p {
+  padding: 5px 0;
+}
+.hero_action-btn {
+  line-height: 0;
+  padding: 1.8em 2.5em;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}

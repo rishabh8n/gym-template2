@@ -1,0 +1,22 @@
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+}
+.container {
+  max-width: min(1920px, 100% - 2em);
+  margin-inline: auto;
+}
+.button,
+.button:focus-visible {
+  border: none;
+  background: none;
+  outline: none;
+}
+/* #hero,
+#about,
+#trainer,
+#services,
+#pricing,
+#contact {
+  height: 100vh;
+} */
