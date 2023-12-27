@@ -27,11 +27,17 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--clr-neutral-700);
   transition: all 0.3s ease;
 }
 .list-item:hover .list_icon {
   background-color: var(--clr-accent-400);
+}
+.list-item:hover .list_icon svg {
+  color: var(--clr-neutral-100);
 }
 .about_list p {
   text-align: center;

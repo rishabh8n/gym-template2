@@ -1,4 +1,7 @@
 import React from "react";
+import { FaDumbbell } from "react-icons/fa";
+import { LuBarChart3, LuGanttChartSquare } from "react-icons/lu";
+import { RxCountdownTimer } from "react-icons/rx";
 import "./about.css";
 
 const About = () => {
@@ -11,7 +14,9 @@ const About = () => {
         </h2>
         <div className="about_list">
           <div className="list-item">
-            <div className="list_icon"></div>
+            <div className="list_icon">
+              <FaDumbbell className="text-accent-400 fs-850" />
+            </div>
             <h3 className="fs-750 fw-semi-bold text-neutral-100">
               Modern equipment
             </h3>
@@ -21,7 +26,9 @@ const About = () => {
             </p>
           </div>
           <div className="list-item">
-            <div className="list_icon"></div>
+            <div className="list_icon">
+              <LuBarChart3 className="text-accent-400 fs-850" />
+            </div>
             <h3 className="fs-750 fw-semi-bold text-neutral-100">
               Healthy nutrition plan
             </h3>
@@ -31,9 +38,11 @@ const About = () => {
             </p>
           </div>
           <div className="list-item">
-            <div className="list_icon"></div>
+            <div className="list_icon">
+              <LuGanttChartSquare className="text-accent-400 fs-850" />
+            </div>
             <h3 className="fs-750 fw-semi-bold text-neutral-100">
-              Proffesponal training plan
+              Proffesional training plan
             </h3>
             <p className="text-neutral-200">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -41,7 +50,9 @@ const About = () => {
             </p>
           </div>
           <div className="list-item">
-            <div className="list_icon"></div>
+            <div className="list_icon">
+              <RxCountdownTimer className="text-accent-400 fs-850" />
+            </div>
             <h3 className="fs-750 fw-semi-bold text-neutral-100">
               Unique to your needs
             </h3>

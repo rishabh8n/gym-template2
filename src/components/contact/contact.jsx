@@ -1,4 +1,6 @@
 import React from "react";
+import { HiOutlineLocationMarker, HiPhone } from "react-icons/hi";
+import { MdOutlineMail } from "react-icons/md";
 import "./contact.css";
 
 const Contact = () => {
@@ -10,19 +12,25 @@ const Contact = () => {
           <h2 className="fs-850 fw-bold text-neutral-100">GET IN TOUCH</h2>
           <div className="contact_details">
             <div className="contact-item">
-              <div className="contact-icon"></div>
+              <div className="contact-icon">
+                <HiOutlineLocationMarker className="text-accent-400 fs-800" />
+              </div>
               <p className="fs-500 text-neutral-200">
                 333 Middle Winchendon Rd, Rindge, NH 03461
               </p>
             </div>
             <div className="contact-item">
-              <div className="contact-icon"></div>
+              <div className="contact-icon">
+                <HiPhone className="text-accent-400 fs-800" />
+              </div>
               <p className="fs-500 text-neutral-200">
                 125-711-811 {"|"} 125-668-886
               </p>
             </div>
             <div className="contact-item">
-              <div className="contact-icon"></div>
+              <div className="contact-icon">
+                <MdOutlineMail className="text-accent-400 fs-800" />
+              </div>
               <p className="fs-500 text-neutral-200">
                 Support.gymcenter@gmail.com
               </p>
