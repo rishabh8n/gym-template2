@@ -18,8 +18,8 @@ const Header = () => {
     <>
       <header className="primary-header">
         <HashLink className="logo" smooth to="/">
-          <span>GYM</span>
-          <span>24</span>
+          <span>FITNESS</span>
+          <span>CLUB</span>
         </HashLink>
         <nav className="primary-navigation">
           <ul role="list" className="nav-links">

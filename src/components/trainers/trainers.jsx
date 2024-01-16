@@ -21,6 +21,12 @@ const Trainers = () => {
               omnis nam iste molestias officiis quis ea dicta debitis itaque!
               Amet, repellendus corrupti!
             </p>
+            <p className="text-neutral-200 fs-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              exercitationem omnis placeat ipsum ducimus eum! Facilis nostrum
+              omnis nam iste molestias officiis quis ea dicta debitis itaque!
+              Amet, repellendus corrupti!
+            </p>
           </div>
         </div>
       </div>
